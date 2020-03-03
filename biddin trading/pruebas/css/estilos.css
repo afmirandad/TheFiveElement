@@ -1,0 +1,114 @@
+/*medias del modelo son witdh:1440 y height:1024, se trabajaran converciones
+en porcentaje(%) para trabajar mejor la responsividad de la pagina*/
+body{
+	background-color: #ffffff;
+	width: 100%;/* 1440px=100% */
+  	height: 100%;/* 1024px=100% */
+}
+
+header{
+	background-color: #FFFFFF;
+  	width: 100%;/* 1440px=100% */
+  	height: 8.6445%;/* 88.52px=?% 1024px=100% .... (88,52*100)/1024=8,6445..... 88.52px=8.65% */
+  	position: absolute; 
+  	top: 0%; 
+  	left: 0%; 
+}
+#Logo{
+	width: 13.1894%; /* 199px=?% 1440px=100% .... (199*100)/1440=13,8194.... 199px=13.8194% */
+  	height: 80%; 
+  	position: absolute;
+	top: 10.37%; 
+  	left: 1.49%; 
+}
+#BtInicio{
+	height: 100%;
+	border: 1px solid #ffffff;
+	position: absolute;
+	top: 1.37%; 
+  	left: 15.43%; 
+}
+#BtSubastas{
+	height: 100%;
+	border: 1px solid #ffffff;
+	position: absolute;
+	top: 1.37%; 
+  	left: 22.14%; 
+}
+#BTD{
+	
+	position: absolute;
+	top: 20.9%; 
+  	left: 31.08%; 
+  	width:18.5%;
+
+}
+#Btdesplegable{
+	
+  	border: 1px solid #8492A6;
+  	border-radius: 5px;
+	width:100%;
+	text-align: left;
+}
+#Flecha{
+	background-color: rgba(255, 255, 255, 0);
+	position: absolute;
+	top: 40.86%; 
+	left: 90.08%; 
+  	width: 16.72px;
+ 	height: 10.75px;
+}
+#DropBtn{
+	width: 100%;
+}
+#Busquedas{
+	background-color: #FFFFFF;
+  	border: 1px solid #15191A;
+	position: absolute;
+	top: 20.86%; 
+	left: 51.94%;
+	width: 40.5%;
+ 	height: 60%; 
+}
+#Lupa{
+	background-color: rgba(255, 255, 255, 0);
+	position: absolute;
+	top: 30.86%; 
+	left: 93.08%; 
+  	width: 2%;
+  	height: 40%;
+}
+#LineaBlack{
+	background-color: #15191A;
+	border: 8px solid #15191A; 
+	width: 100%; /* 1440px=100% */
+  	height: 0.6%; /* 6px=?% 1024px=100% .... (6*100)/1024=0,5859375..... 6px=0.59% */
+  	position: absolute; 
+  	top: 8.496%; /* 87px=?% 1024px=100% .... (87*100)/1024=8,496.... 87px=8.5% */
+  	left:0%;
+}
+#Contenido{
+	background-color: #BBE8F7;
+	width: 100%;/* 1440px=100% */
+  	height: 90%;/* 1024px=100% 929.28px=90.75*/
+  	position: absolute;
+  	top: 9.1%; /* 87px=?% 1024px=100% .... (87*100)/1024=8,496.... 87px=8.5% */
+  	left: 0%;
+}
+#MenusEIngreso{
+	
+	width: 100%;/* 1440px=100% */
+  	height: 13.77%;/* 1024px=100% 929.28px=90.75*/
+  	position: absolute;
+  	top: 9.1%; /* 87px=?% 1024px=100% .... (87*100)/1024=8,496.... 87px=8.5% se le suman el height de la liena (+0.6%)*/
+  	left: 0%;
+}
+#PanelDeSubasta{
+	
+	width: 100%;/* 1440px=100% */
+  	height: 76,23%;
+  	position: absolute;
+  	top: 22.87%; /* los 9.1 se le suman el tamaño: 13.77+9.1=22.87*/
+  	left: 0%;
+}
+

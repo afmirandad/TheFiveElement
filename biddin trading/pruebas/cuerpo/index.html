@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<LINK REL="StyleSheet" HREF="../css/estilos.css" TYPE="text/css" MEDIA=screen>
+	<title>Bidding Trading</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			<img src="../data/imagenes/logo.png" id="Logo">
+			<a href=""><button type="button" class="btn btn-lg btn-outline-secondary" id="BtInicio">Inicio</button></a>
+			<a href=""><button type="button" class="btn btn-lg btn-outline-secondary" id="BtSubastas">Subasta</button></a>
+			<div class="dropdown" id="BTD">
+				<button class="btn dropdown-toggle-split" type="button" id="Btdesplegable" 
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias
+				<img src="../data/imagenes/flecha hacia abajo.png" id="Flecha">
+				</button>
+				
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton " id="DropBtn">
+				    <a class="dropdown-item" href="" >Huawei</a><!--los href llenarlos con el php que contenga los filtros-->
+				    <a class="dropdown-item" href="" >Alcatel</a><!--lo mismo-->
+				    <a class="dropdown-item" href="" >Xiaomi</a><!--hasta aca--> 
+				</div>
+			</div>
+			<form action=""><!-- recordar ponerle el php que realice la consulta-->
+				<input type="text" id="Busquedas" name="busqueda">
+				<input type="image" name="envio" src="../data/imagenes/lupa.png" id="Lupa">
+			</form>
+		</header>
+		<div id="LineaBlack"></div>
+	</div>
+	
+	<div class="container-fluid" id="Contenido">
+		<div class="row" id="MenuEIngreso">
+			<div class="col-md-1">inicio</div>
+			<div class="col-md-10">medio</div>
+			<div class="col-md-1">final</div>
+		</div>
+		<div class="row" id="PanelDeSubasta">
+			---otro
+		</div>
+	</div>
+	
+	<footer>
+		dfghj
+	</footer>
+</body>
+</html>
