@@ -37,3 +37,8 @@
     background-position: -99999999px 0;
   }
 }
+
+.panelw{
+  padding: 10px;
+  display: none;
+}
