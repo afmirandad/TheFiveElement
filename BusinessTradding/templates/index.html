@@ -1,0 +1,62 @@
+{% extends 'base/base.html' %}
+{% block content %}
+    <div class="container">
+      <div class="row">
+      {% for item in list %}
+          <article class="col-md-4">
+            <div class="image">
+              <span class="text-primary d-inline text-right">{{item[1]}} </span><br>
+              <span class="text-info d-inline text-left">Precio: {{item[2]}}</span><br>
+            </div>
+            <div id=image{{item[0]}}>
+            <img class="img-fluid embed-responsive-item img-thumbnail" src={{item[3]}} title="{{item[3]}}"><br>
+            <div id="dat{{item[0]}}" class="panelw text-info">RAM: <span class="text-primary d-inline text-right">value</span></div>
+            <div class="container panelw">
+            	<div class="row">
+            		<div class="col-sm">
+            		<span style="background-position:-85px 0;"></span>
+            		<strong>
+            		6.6
+            		<br>
+            		IPS
+            		</strong>
+            		<p>1080x2400</p>
+            		</div>
+            		<div class="col-sm">
+            		<span style="background-position:-85px 0;"></span>
+            		<strong>
+            		6.6
+            		<br>
+            		IPS
+            		</strong>
+            		<p>1080x2400</p>
+            		</div>
+              </div>
+              <div class="row">
+            		<div class="col-sm">
+            		<span style="background-position:-85px 0;"></span>
+            		<strong>
+            		6.6
+            		<br>
+            		IPS
+            		</strong>
+            		<p>1080x2400</p>
+            		</div>
+            		<div class="col-sm">
+            		<span style="background-position:-85px 0;"></span>
+            		<strong>
+            		6.6
+            		<br>
+            		IPS
+            		</strong>
+            		<p>1080x2400</p>
+            		</div>
+            	</div>
+            </div>
+            <br><br>
+            </div>
+          </article>
+      {% endfor %}
+      </div>
+    </div>
+{% endblock %}
