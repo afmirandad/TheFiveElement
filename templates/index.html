@@ -1,0 +1,22 @@
+{% extends 'base/base.html' %}
+{% block content %}
+    <div class="container">
+      <div class="row">
+      {% for item in list %}
+          <article class="col-md-4">
+            <div class="image">
+              <span class="text-primary d-inline text-right">{{item[1]}} </span>
+              <span class="text-info d-inline text-left">Precio: {{item[2]}}</span><br>
+            </div>
+            <div id=image{{item[0]}}>
+            <img class="img-fluid embed-responsive-item img-thumbnail" src={{item[3]}} title="{{item[3]}}"><br>
+            <div id="dat{{item[0]}}" class="panelw text-info">RAM: <span class="text-primary d-inline text-right">value</span></div>
+            <div id="dat{{item[0]}}" class="panelw text-info">Espacio: <span class="text-primary d-inline text-right">value</span></div>
+            <div id="dat{{item[0]}}" class="panelw text-info">Fabricante: <span class="text-primary d-inline text-right">value</span></div>
+            <br><br>
+            </div>
+          </article>
+      {% endfor %}
+      </div>
+    </div>
+{% endblock %}
